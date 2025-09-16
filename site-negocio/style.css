@@ -278,6 +278,32 @@ address {
   margin-bottom: 10px;
 }
 
+/* Telas até 320px (celular) */
+@media (max-width: 320px) {
+      nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  table {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  form {
+    padding: 0 10px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+/* Telas até 768px (tablet) */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -301,7 +327,7 @@ address {
     width: 100%;
   }
 }
-/* Telas até 1024px (tablet) */
+/* Telas até 1024px (computador) */
 @media (max-width: 1024px) {
   main {
     padding: 20px 15px;
