@@ -1,0 +1,107 @@
+//contato//
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #111;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2px solid #a020f0;
+}
+
+header h1 {
+  margin: 0;
+  color: #a020f0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #d080ff;
+}
+
+main {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+main h2 {
+  color: #a020f0;
+}
+
+/* ===== FORMULÁRIO ===== */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a020f0;
+  border-radius: 5px;
+  background-color: #111;
+  color: #f0f0f0;
+}
+
+button {
+  margin-top: 15px;
+  background-color: #a020f0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d080ff;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #a020f0;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #a020f0;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #d080ff;
+}
+
+address {
+  font-style: normal;
+  margin-bottom: 10px;
+}
