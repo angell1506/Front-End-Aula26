@@ -1,4 +1,4 @@
-css inicio
+/* ===== CSS INÍCIO ===== */
 body {
   font-family: Arial, sans-serif;
   background-color: #000;
@@ -76,7 +76,7 @@ address {
   margin-bottom: 10px;
 }
 
-contato
+/* ===== CONTATO ===== */
 body {
   font-family: Arial, sans-serif;
   background-color: #000;
@@ -184,7 +184,7 @@ address {
   margin-bottom: 10px;
 }
 
-css do serviço
+/* ===== CSS DO SERVIÇO ===== */
 body {
   font-family: Arial, sans-serif;
   background-color: #000;
@@ -276,4 +276,38 @@ footer a:hover {
 address {
   font-style: normal;
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  table {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  form {
+    padding: 0 10px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+/* Telas até 1024px (tablet) */
+@media (max-width: 1024px) {
+  main {
+    padding: 20px 15px;
+  }
+
+  table {
+    font-size: 15px;
+  }
 }
